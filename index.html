@@ -1,0 +1,497 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/arhitect.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<!--banner-->
+<div>
+  <div class="h-100-vh position-relative" id="home">
+    <header class="position-fixed d-flex ">
+      <div class="logo position-absolute d-flex">
+        <img src="img/logo-A.svg" alt="A-logo">
+        <span class="upqode">UPQODE</span>
+      </div>
+      <nav class="position-absolute big-menu d-lg-none">
+        <ul>
+          <li class="home-underline px-4"><a href="#home">Home</a></li>
+          <li class="px-4"><a href="#services">Services</a></li>
+          <li class="px-4"><a href="#team">Team</a></li>
+          <li class="px-4"><a href="#contactUs">Contact Us</a></li>
+        </ul>
+      </nav>
+
+<!--      hidde Menu-->
+      <nav class="position-absolute small-menu displayNone">
+        <ul class="settings-ul displayNone ">
+          <li class="home-underline px-4"><a href="#home">Home</a></li>
+          <li class="px-4"><a href="#services">Services</a></li>
+          <li class="px-4"><a href="#team">Team</a></li>
+          <li class="px-4"><a href="#contactUs">Contact Us</a></li>
+        </ul>
+
+        <div class="my-menu-btn position-absolute ">
+          <div class="circle position-relative d-flex justify-content-center align-items-center">
+            <div class="line-btn d-flex justify-content-center align-items-center">
+              <div class="bars displayNone displayBlock"><i class="displayNone displayBlock fas fa-bars"></i></div>
+              <div class="close displayNone"><i class=" far fa-times-circle"></i></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+<!--      hidde Menu end-->
+    </header>
+
+    <!-- Slider-->
+    <section class="slideShow-container d-flex justify-content-center">
+      <div class="mySlides my-video ">
+        <div class="video ">
+          <video class="video_media col-12 style-video-100" src="img/lamborguni.mp4" autoplay muted loop>
+          </video>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img class="bannerSettings style-video-100" src="img/Bitmap.png" style="width: 100%" alt="Bitmap">
+      </div>
+      <div class="mySlides">
+        <img class="bannerSettings style-video-100" src="img/image.png" style="width: 100%" alt="image">
+      </div>
+
+      <h1>Mileage Made Simple</h1>
+      <h3>Motivation And Your Personal Vision An Unbeatable Force</h3>
+
+      <a class="prev" onclick="plusSlides(-1)">
+        <img class="arrow" src="img/Path-left.svg" alt="arrow_left">
+      </a>
+      <a class="next" onclick="plusSlides(1)">
+        <img class="arrow" src="img/Path-left.svg" alt="arrow_right">
+      </a>
+
+      <a href="#" class="btn-banner text-decoration-none d-flex
+       justify-content-center align-items-center position-md-absolute">
+        <span>Start Free Trial</span>
+      </a>
+
+      <div class="dotSettings d-flex">
+        <div class="dot-wrap">
+          <div class="dot" onclick="currentSlide(1)"></div>
+        </div>
+
+        <div class="dot-wrap">
+          <div class="dot" onclick="currentSlide(2)"></div>
+        </div>
+
+        <div class="dot-wrap">
+          <div class="dot" onclick="currentSlide(3)"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider End-->
+
+    <!--banner end-->
+  </div>
+</div>
+
+<!--SERVICES-->
+<section class="services position-relative " id="services">
+  <img id="blue-dot" src="img/blue-dot.svg" alt="blue-dot" class="position-absolute blue-dot ">
+  <img src="img/line.svg" alt="line" class="line position-absolute">
+<!--first phone-->
+    <div class="wrap-phones d-flex col-12  flex-wrap-lg-wrap-revers">
+      <div class="container-phone col-6 col-lg-12 ">
+        <img class=" size-of-SmallOval position-absolute combined" src="img/Combined%20Shape.svg" alt="combined">
+        <img class=" size-of-phone position-absolute phone1" src="img/phone.svg" alt="phone1">
+        <img class=" size-of-BigOval" src="img/Oval%2012.svg" alt="oval">
+      </div>
+
+      <div class="container-content col-6 col-lg-12 mb-lg-5 ">
+        <div class="wrap-content col-12 pt-5 ">
+          <h4 class="pb-4">Track every trip you make</h4>
+          <span>Every one of your trips is captured immediately and is never forgotten.</span>
+          <div class="d-flex">
+            <img src="img/bird.svg" alt="bird" class="pr-3">
+            <span>No signal dropout</span>
+          </div>
+
+          <div class="d-flex">
+            <img src="img/bird.svg" alt="bird" class="pr-3">
+            <span>No missed trips</span>
+          </div>
+
+          <a href="#" class="justify-content-center align-items-center mt-5">
+            <span> lean more</span>
+            <img src="img/arrow_btn.svg" alt="arrow-btn" class="pl-3">
+          </a>
+        </div>
+      </div>
+    </div>
+
+<!--  second phone-->
+  <div class="wrap-phones d-flex col-12 flex-wrap-lg-wrap">
+    <div class="container-content  col-6 col-lg-12 mb-lg-5">
+      <div class="wrap-content   col-12 pt-5">
+        <h4 class="pb-4  ">Classify with a single swipe</h4>
+        <span class=" ">Every one of your trips is captured immediately and is never forgotten.</span>
+        <div class="d-flex ">
+          <img src="img/bird.svg" alt="bird" class="pr-3">
+          <span class="">Review trips on the go</span>
+        </div>
+
+        <div class="d-flex ">
+          <img src="img/bird.svg" alt="bird" class="pr-3">
+          <span>Classify journeys in seconds</span>
+        </div>
+
+        <a href="#" class="d-flex justify-content-center align-items-center mt-5 ">
+          <span> lean more</span>
+          <img src="img/arrow_btn.svg" alt="arrow-btn" class="pl-3">
+        </a>
+      </div>
+    </div>
+
+    <div class="container-phone col-6 col-lg-12">
+      <div class="position-relative">
+        <img class=" size-of-SmallOval position-absolute combined2" src="img/Combined%20Shape.svg" alt="combined">
+        <img class="size-of-phone position-absolute phone2" src="img/phone.svg" alt="phone2">
+        <img class="size-of-BigOval w-oval" src="img/Oval%2012.svg" alt="oval">
+      </div>
+    </div>
+  </div>
+
+<!--  third phone-->
+  <div class="wrap-phones d-flex col-12 flex-wrap-lg-wrap-revers">
+    <div class="container-phone col-6 col-lg-12">
+      <div class="position-relative">
+        <img class=" size-of-SmallOval  position-absolute combined3" src="img/Combined%20Shape.svg" alt="combined">
+        <img class="size-of-phone  position-absolute phone3" src="img/phone.svg" alt="phone3">
+        <img class="size-of-BigOval" src="img/Oval%2012.svg" alt="oval">
+      </div>
+    </div>
+
+    <div class="container-content col-6 col-lg-12 mb-lg-5">
+      <div class="wrap-content col-12 pt-5">
+        <h4 class="pb-4">Claim your money back with ease</h4>
+        <span>Claiming mileage has never been so easy, with all calculations done for you.</span>
+        <div class="d-flex">
+          <img src="img/bird.svg" alt="bird" class="pr-3">
+          <span>100% HMRC compliance</span>
+        </div>
+
+        <div class="d-flex">
+          <img src="img/bird.svg" alt="bird" class="pr-3">
+          <span> All logs in one place</span>
+        </div>
+
+        <a href="#" class="justify-content-center align-items-center mt-5">
+          <span> lean more</span>
+          <img src="img/arrow_btn.svg" alt="arrow-btn" class="pl-3">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--SERVICES END-->
+
+<!-- TEAM Location-->
+<section class="position-relative google" id="team">
+  <div class="wrap-google-maps position-absolute">
+    <div class="wrap-google-content d-flex col-12 flex-wrap-sm-wrap">
+
+      <div class="left-section col-sm-12 col-3 col-xl-4 d-flex flex-direction-column bg-lime">
+
+        <div class="d-flex flex-direction-column l-top-settings pb-5">
+          <h2 class="pb-2">Meet Us in Your City</h2>
+          <span>2005 Stokes Isle Apt. 896, </span>
+          <span>Venaville,  New York 10010</span>
+        </div>
+        <div>
+
+          <div class="d-flex flex-direction-column l-settings one mb-3">
+            <div><i class="iclassLos fas fa-map-marked-alt"></i>
+            <span>Los Angeles, USA</span>
+            </div>
+            <span>2005 Stokes Isle Apt. 896, </span>
+            <span>Venaville,  New York 10010</span>
+          </div>
+
+          <div class="d-flex flex-direction-column l-settings twoo mb-3">
+            <div><i class="iclassNew fas fa-map-marked-alt"></i>
+            <span>NewYork, USA</span>
+            </div>
+            <span>2005 Stokes Isle Apt. 896,</span>
+            <span>Venaville,  New York 10010</span>
+          </div>
+
+          <div class="d-flex flex-direction-column l-settings three mb-3">
+            <div><i class="iclassBos fas fa-map-marked-alt"></i>
+            <span>Boston, USA</span>
+            </div>
+            <span>2005 Stokes Isle Apt. 896,</span>
+            <span>Venaville,  New York 10010</span>
+          </div>
+
+          <div class="d-flex flex-direction-column l-settings four mb-3">
+            <div><i class="iclassDetr fas fa-map-marked-alt"></i>
+            <span>Detroit, USA</span>
+            </div>
+            <span>2005 Stokes Isle Apt. 896,</span>
+            <span>Venaville,  New York 10010</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+<!--///////////rightSection/////////-->
+
+
+      <div class=" right-section col-sm-12 position-relative col-9 col-xl-9">
+
+        <div class="displayNone displayBlock position-relative special-wrap-map-and-right-window1">
+          <img class="position-absolute point" src="img/point.svg" alt="point">
+          <div class="d-lg-none position-absolute right-window-info d-flex justify-content-center align-items-center flex-direction-column">
+              <div>
+                <h5 class="pb-3">Los Angeles</h5>
+                <span>2005 Stokes Isle Apt. 896, </span>
+                <br>
+                <span>Los Angeles 10010</span>
+
+                <div class="pt-3">
+                  <i class="far fa-clock"></i>
+                  <span class="special">Work Schedule</span>
+                  <br>
+                  <span>Mon - Sat: <span> 11:00-19:00,</span></span>
+                  <br>
+                  <span>Sun: <span>11:00-16:00,</span></span>
+                </div>
+
+                <div class="pt-3">
+                  <i class="fas fa-phone-square-alt"></i>
+                  <span class="special">Head Office</span>
+                  <br>
+                  <span>(0043) 568 456 902</span>
+                  <br>
+                  <span>(0043) 568 456 902</span>
+                </div>
+
+                <div class="pt-3">
+                  <i class="far fa-envelope"></i>
+                  <span class="special">Head Office</span>
+                  <br>
+                  <a>hello@pad.architecture</a>
+                  <br>
+                  <a>support@pad.architecture</a>
+                </div>
+
+              </div>
+            <div>
+            </div>
+
+          </div>
+<!--          /////////////////////-->
+          <div class="col-10 displayNone displayBlock " id="mapLosAngeles"></div>
+
+
+        </div>
+<!--        //////////////////////////////////////////////////////////////////////////////////////-->
+        <div class="displayNone position-relative special-wrap-map-and-right-window2">
+          <img class="position-absolute point2" src="img/point.svg" alt="point">
+
+          <div class="d-lg-none position-absolute right-window-info d-flex justify-content-center align-items-center flex-direction-column">
+            <div>
+              <h5 class="pb-3">New York</h5>
+              <span>2005 Stokes Isle Apt. 896, </span>
+              <br>
+              <span>New York 10010</span>
+              <div class="pt-3">
+                <i class="far fa-clock"></i>
+                <span class="special">Work Schedule</span>
+                <br>
+                <span>Mon - Sat: <span> 11:00-19:00,</span></span>
+                <br>
+                <span>Sun: <span>11:00-16:00,</span></span>
+              </div>
+
+              <div class="pt-3">
+                <i class="fas fa-phone-square-alt"></i>
+                <span class="special">Head Office</span>
+                <br>
+                <span>(0043) 568 456 902</span>
+                <br>
+                <span>(0043) 568 456 902</span>
+              </div>
+
+              <div class="pt-3">
+                <i class="far fa-envelope"></i>
+                <span class="special">Head Office</span>
+                <br>
+                <a>hello@pad.architecture</a>
+                <br>
+                <a>support@pad.architecture</a>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+          <!--          /////////////////////-->
+          <div class="col-10 displayNone" id="mapNewYork"></div>
+        </div>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div class="displayNone position-relative special-wrap-map-and-right-window3">
+          <img class="position-absolute point3" src="img/point.svg" alt="point">
+
+          <div class="d-lg-none position-absolute right-window-info d-flex justify-content-center align-items-center flex-direction-column">
+            <div>
+              <h5 class="pb-3">Boston</h5>
+              <span>2005 Stokes Isle Apt. 896, </span>
+              <br>
+              <span>Boston 10010</span>
+
+              <div class="pt-3">
+                <i class="far fa-clock"></i>
+                <span class="special">Work Schedule</span>
+                <br>
+                <span>Mon - Sat: <span> 11:00-19:00,</span></span>
+                <br>
+                <span>Sun: <span>11:00-16:00,</span></span>
+              </div>
+
+              <div class="pt-3">
+                <i class="fas fa-phone-square-alt"></i>
+                <span class="special">Head Office</span>
+                <br>
+                <span>(0043) 568 456 902</span>
+                <br>
+                <span>(0043) 568 456 902</span>
+              </div>
+
+              <div class="pt-3">
+                <i class="far fa-envelope"></i>
+                <span class="special">Head Office</span>
+                <br>
+                <a>hello@pad.architecture</a>
+                <br>
+                <a>support@pad.architecture</a>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+          <!--          /////////////////////-->
+          <div class="col-10 displayNone" id="mapBoston"></div>
+
+        </div>
+<!--        ////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div class="displayNone position-relative special-wrap-map-and-right-window4">
+          <img class="position-absolute point4" src="img/point.svg" alt="point">
+          <div class="d-lg-none position-absolute right-window-info d-flex justify-content-center align-items-center flex-direction-column">
+            <div>
+              <h5 class="pb-3">Detroit</h5>
+              <span>2005 Stokes Isle Apt. 896, </span>
+              <br>
+              <span>Detroit 10010</span>
+
+              <div class="pt-3">
+                <i class="far fa-clock"></i>
+                <span class="special">Work Schedule</span>
+                <br>
+                <span>Mon - Sat: <span> 11:00-19:00,</span></span>
+                <br>
+                <span>Sun: <span>11:00-16:00,</span></span>
+              </div>
+
+              <div class="pt-3">
+                <i class="fas fa-phone-square-alt"></i>
+                <span class="special">Head Office</span>
+                <br>
+                <span>(0043) 568 456 902</span>
+                <br>
+                <span>(0043) 568 456 902</span>
+              </div>
+
+              <div class="pt-3">
+                <i class="far fa-envelope"></i>
+                <span class="special">Head Office</span>
+                <br>
+                <a>hello@pad.architecture</a>
+                <br>
+                <a>support@pad.architecture</a>
+              </div>
+            </div>
+
+          </div>
+          <!--          /////////////////////-->
+          <div class="col-10 displayNone" id="mapDetroit"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--TEAMLocation END-->
+
+<!--FOOTER-->
+<footer class="d-flex justify-content-center align-items-center flex-direction-column" id="contactUs">
+  <div class="logo d-flex mb-3">
+    <img src="img/logo-A.svg" alt="A-logo">
+    <span class="upqode">UPQODE</span>
+  </div>
+
+  <nav class="py-5 fotr mb-5">
+    <ul class="setting-footer">
+      <li class="px-4 "><a href="#home">Home</a></li>
+      <li class="px-4 "><a href="#services">Services</a></li>
+      <li class="px-4 "><a href="#team">Team</a></li>
+      <li class="px-4 "><a href="#contactUs">Contact Us</a></li>
+    </ul>
+  </nav>
+  <span>© UpQode 2019.  All Right Reserved.</span>
+</footer>
+
+<!--FOOTER END-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js" integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js" integrity="sha512-/8phkpsAzxsbuX18zNkQ2gCq4Q5JsWoPo1jHLDeZorPUHRtx9YJxpdk+os05oDhPJVCNzA2/NMl4rmJyQ+6Fvg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js" integrity="sha512-I0VFyPo7hdM7YrEbQ0pvX4bX2904k0+B19u/xBrPrQoMprfcSnIDfGFD8kP52GbAhwtDjkEVhXlQvj8+vkJyew==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js" integrity="sha512-ht40uOoiTef4nKq0THVzjIGh3VS108J577LVVgNXnQLXza3doXjoM3owin2vd+Hm6w88k12RIrePIVY2WNzz6Q==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/BezierPlugin.min.js" integrity="sha512-oOy5+mtZRcqjn6b9k4oj+tk2/hVIetzOAM9Y5cndEHgLxiIGavAz1agbHf6JjGzxXZ2SMbu08Uy1DDF0UwA0qQ==" crossorigin="anonymous"></script>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWCl8mlaKdgsgbMygYv2blQ-yD-031yqo&callback=initMap"
+        type="text/javascript"></script>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
